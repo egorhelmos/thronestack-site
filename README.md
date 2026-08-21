@@ -35,3 +35,17 @@ the browser.
 - test mobile layout and keyboard navigation
 - test checkout, delivery, and refund from a customer perspective
 - connect `ThroneStack.com` only after the deployment is stable
+
+## Cloudflare Pages deployment
+
+The site is prepared for Cloudflare Pages and does not require a build command.
+
+- connect the private `egorhelmos/thronestack-site` GitHub repository
+- production branch: `main`
+- framework preset: none
+- build command: leave blank
+- build output directory: `/`
+
+Deploy to the generated `*.pages.dev` address first. Verify every page and form
+state there before connecting `ThroneStack.com`. `_headers` applies the public
+security headers, and `404.html` supplies the not-found page.

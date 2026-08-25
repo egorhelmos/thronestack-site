@@ -32,7 +32,7 @@
     <main>
       <div class="wrap hero">
         <div class="hero-copy">
-          <p class="eyebrow">Approval-first agentic AI</p>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Approval-first agentic AI</p>
           <h1>Build systems that answer to you.</h1>
           <p>Stop juggling disconnected AI chats. Build one local command center that routes work, uses specialists, pauses for your approval, and records what happened.</p>
           <div class="actions">
@@ -44,7 +44,7 @@
 
         <div class="system-card" aria-label="Example approval workflow">
           <div class="system-head">
-            <strong>Command center</strong>
+            <div class="window-title"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><strong>Command center</strong></div>
             <span class="status">Local system ready</span>
           </div>
           <div class="system-flow">
@@ -54,6 +54,7 @@
             <div class="node approval"><small>04 · Human boundary</small><strong>Waiting for your approval</strong></div>
             <div class="node"><small>05 · Activity</small><strong>Decision and outcome recorded</strong></div>
           </div>
+          <div class="system-foot"><span>WORKFLOW / FOLLOW-UP</span><span>5 EVENTS LOGGED</span></div>
         </div>
       </div>
 
@@ -79,7 +80,17 @@
 
       <section class="wrap case-study">
         <div class="demo-frame">
-          <div><strong>Try the sanitized workflow</strong><br><span>Route a fictional request, inspect the draft, and make the approval decision.</span><br><br><a class="button secondary" href="demo.html">Open interactive demo</a></div>
+          <div class="demo-toolbar">
+            <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span>thronestack / approval-flow</span>
+            <span class="demo-live">LIVE DEMO</span>
+          </div>
+          <div class="demo-screen">
+            <div class="demo-command"><span>REQUEST</span><p>Prepare a follow-up draft for a new lead.</p></div>
+            <div class="demo-route"><span>MAIN BRAIN</span><strong>Communication specialist</strong><small>Draft locally · External send blocked</small></div>
+            <div class="demo-approval"><span>HUMAN BOUNDARY</span><strong>Approval required</strong><small>The system pauses here.</small></div>
+            <a class="button secondary" href="demo.html">Open interactive demo <span aria-hidden="true">→</span></a>
+          </div>
         </div>
         <div>
           <p class="eyebrow">Working case study</p>

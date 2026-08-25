@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Try the approval-first workflow included with the ThroneStack teaching starter.">
+    <title>Interactive product demo — ThroneStack</title>
+    <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="demo.js" defer></script>
+  </head>
+  <body>
+    <header class="wrap nav">
+      <a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>ThroneStack</span></a>
+      <a class="button small secondary" href="sample.html">Read sample chapter</a>
+    </header>
+    <main class="wrap legal demo-page">
+      <p class="eyebrow">Sanitized product demonstration</p>
+      <h1>See the human approval boundary.</h1>
+      <p class="section-lead">This browser-only demonstration mirrors the request → route → draft → approval → activity workflow in the downloadable teaching starter. It uses fictional data, makes no external calls, and does not save your input.</p>
+
+      <div class="demo-grid">
+        <section class="demo-console" aria-labelledby="demo-title">
+          <h2 id="demo-title">Command center</h2>
+          <label for="demo-request">Request</label>
+          <textarea id="demo-request" rows="4">Prepare a follow-up draft for fictional lead Morgan about a workflow discovery call.</textarea>
+          <button class="button" id="run-demo" type="button">Route request</button>
+
+          <div id="demo-output" class="demo-output" hidden>
+            <div class="demo-row"><span>Route</span><strong>Communication specialist</strong></div>
+            <div class="demo-row"><span>Permission</span><strong>Draft locally only</strong></div>
+            <div class="demo-draft">
+              <small>REVIEWABLE DRAFT</small>
+              <p><strong>Subject: Workflow discovery call</strong></p>
+              <p>Hi Morgan—thank you for your interest. I drafted a short outline for a workflow discovery call. If the scope looks right, we can choose a time to review it together.</p>
+            </div>
+            <div id="decision-panel" class="decision-panel">
+              <p><strong>Human approval required.</strong> The system cannot send this message.</p>
+              <button class="button" data-decision="approved" type="button">Approve draft</button>
+              <button class="button secondary" data-decision="rejected" type="button">Reject draft</button>
+            </div>
+          </div>
+        </section>
+
+        <aside class="activity-card">
+          <p class="eyebrow">Activity record</p>
+          <ol id="activity-log" class="activity-log">
+            <li><span>Ready</span><strong>Waiting for a request</strong></li>
+          </ol>
+        </aside>
+      </div>
+
+      <div class="review-note">
+        <h2>What customers receive</h2>
+        <p>The $19 founding edition includes the full digital guide, a separate downloadable starter application, operating-spec and agent templates, approval and recovery checklists, and founding updates through version 1.0. Private Ars Goetia source code, personal data, credentials, subscriptions, and external services are not included.</p>
+      </div>
+    </main>
+    <footer><div class="wrap footer-row"><div>© 2026 ThroneStack. All rights reserved.</div><div class="footer-links"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div></footer>
+  </body>
+</html>

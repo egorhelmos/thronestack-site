@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A free sample from Build Your Agentic AI OS by ThroneStack.">
+    <title>Free sample chapter — ThroneStack</title>
+    <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="wrap nav"><a class="brand" href="index.html"><img src="assets/mark.svg" alt=""><span>ThroneStack</span></a><a class="button small secondary" href="demo.html">Try the demo</a></header>
+    <main class="wrap legal sample-page">
+      <p class="eyebrow">Complimentary product sample</p>
+      <h1>Stop building one giant AI agent.</h1>
+      <p class="section-lead">An excerpt from <em>Build Your Agentic AI OS</em>, the approval-first VS Code guide from ThroneStack.</p>
+
+      <p>The phrase <em>Main Brain</em> sounds like one model should know everything and control everything. That design becomes fragile quickly. It produces a large prompt, unclear authority, unpredictable tool use, and no clean place to diagnose a failure.</p>
+      <p>A better Main Brain is a small control plane. It should:</p>
+      <ol>
+        <li>understand the user’s request</li>
+        <li>classify the work</li>
+        <li>select an allowed workflow or specialist</li>
+        <li>assemble only the context that workflow needs</li>
+        <li>request approval when a boundary is reached</li>
+        <li>record the decision and result</li>
+      </ol>
+      <p>The specialist does the domain work. The Main Brain handles routing and policy.</p>
+
+      <h2>A practical mental model</h2>
+      <p>Think of the system as a well-run studio:</p>
+      <ul>
+        <li><strong>Front desk:</strong> accepts and clarifies requests</li>
+        <li><strong>Dispatcher:</strong> routes work and checks policy</li>
+        <li><strong>Specialists:</strong> research, draft, analyze, or implement</li>
+        <li><strong>Approver:</strong> a human decides whether a consequential output proceeds</li>
+        <li><strong>Archivist:</strong> records sources, decisions, and durable facts</li>
+        <li><strong>Auditor:</strong> reports failures and unexpected behavior</li>
+      </ul>
+      <p>One model may perform several of these roles during an early prototype, but the roles should still be explicit in code and data. That separation lets you change models later without redesigning the entire system.</p>
+
+      <h2>Exercise: choose one workflow</h2>
+      <p>Do not begin with “run my business.” Complete this sentence instead:</p>
+      <blockquote>When __________ happens, the system should collect __________, prepare __________, ask me to approve __________, and record __________.</blockquote>
+      <p>Start with one workflow that has a visible beginning, a human decision, and a recorded ending. If you cannot describe it in one sentence, make it smaller.</p>
+
+      <div class="review-note">
+        <p><strong>Continue with the founding edition.</strong> The full guide walks through the operating specification, workspace protection, bounded agents, approvals, memory, testing, recovery, and a functional local starter.</p>
+        <a class="button" href="index.html#guide">See the $19 edition</a>
+      </div>
+    </main>
+    <footer><div class="wrap footer-row"><div>© 2026 ThroneStack. All rights reserved.</div><div class="footer-links"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div></footer>
+  </body>
+</html>

@@ -173,6 +173,7 @@ section { padding: 7rem 0; }
 
 .waitlist { text-align: center; }
 .waitlist h2, .waitlist .section-lead { margin-inline: auto; }
+.centered-actions { justify-content: center; }
 .waitlist-form { display: flex; gap: 0.6rem; max-width: 590px; margin: 2rem auto 0; }
 .waitlist-form input { flex: 1; min-height: 50px; padding: 0 1rem; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--ink); font: inherit; }
 .form-status { min-height: 1.5rem; color: var(--gold-bright); font-size: 0.9rem; }

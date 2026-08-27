@@ -161,6 +161,7 @@ h3 { margin: 0.2rem 0 0.7rem; font-size: 1.25rem; }
 .hero-copy > p:not(.eyebrow) { max-width: 640px; color: #cac6bd; font-size: 1.16rem; }
 .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2rem; }
 .microcopy { color: var(--muted); font-size: 0.85rem !important; }
+.merchant-note { color: var(--green) !important; font-size: 0.82rem !important; }
 
 .system-card {
   position: relative;

@@ -26,10 +26,15 @@ the browser.
 
 ## Required before launch
 
-- add a sanitized demonstration video
+- export and review the complete customer guide
+- package the clean starter and worksheets without runtime data
+- add a sanitized demonstration video or equivalent launch walkthrough
 - test mobile layout and keyboard navigation
-- test checkout, delivery, and refund from a customer perspective
-- update the privacy notice with the approved merchant and support process
+- configure the live Lemon Squeezy product and upload every delivery file
+- test checkout and refunds in Lemon Squeezy test mode
+- verify the live delivery files separately because test-mode downloads are disabled
+- add and verify a public support email address
+- update `checkoutUrl` with the live product link only after every gate passes
 
 ## GitHub Pages deployment
 
